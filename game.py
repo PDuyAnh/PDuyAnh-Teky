@@ -1,4 +1,3 @@
-
 import random
 _PATH = 'D:/ailatrieuphu'
 
@@ -20,10 +19,9 @@ with open(CAU_TRA_LOI, 'r',encoding = 'utf-8') as f:
 with open(GIAI_THUONG, 'r' ,encoding = 'utf-8') as f:
     GIAI_THUONG_LIST = f.readlines()
 
-# VI_TRI = random.randint(1,19)
+
 VI_TRI = 0
-# print(VI_TRI)
-# In câu hỏi
+
 name = input('Nhập vào tên thí sinh: ')
 print("Chào mừng", name ,"đã đến với chương trình AI LÀ TRIỆU PHÚ")
 cont = True
